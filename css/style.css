@@ -1,3 +1,8 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -6,16 +11,69 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 420px;
+  width: 40%;
 }
 
 nav {
   margin: 0 auto;
+  background-color: #000000
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
 }
 
+.arrow-left {
+  font-size: 1em;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  padding-left: 4%;
+  background-color: #000000;
+}
+
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 50%;
+  width: 100%;
+}
+
+.location {
+  border: 0 solid #424242;
+  background-color: #D3D3D3;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom:8px;
+  padding-right: 20px;
+  width: 420px;
+}
+
+.content h1{
+  font-size:1.9em;
+  font-weight: 600;
+  color:#000000;
+  padding-bottom: 1.5%;
+}
+
+.content h3{
+  font-size:1.4em;
+  color:#000000;
+  font-weight: medium;
+  line-height: normal;
+  padding-bottom: 3%;
+  padding-top: 0;
+}
+
+.location:hover {
+  background-color:#A19FA1;
+}
+
+.arrow {
+  display: inline-block;
+ float: right;
+ font-size: 1em;
+ padding-top: 3%;
+}
+
+.content {
+  float: left;
+  width: 95%;
 }
